@@ -1,0 +1,75 @@
+Pflichtenheft
+
+1. Einleitung
+
+Das vorliegende Pflichtenheft beschreibt die funktionalen und nicht-funktionalen Anforderungen an das zu entwickelnde Produkt. Es dient als Grundlage für die Ausschreibung, Vertragsgestaltung und Entwicklung des Projekts "Integration eines mit JavaScript programmierten Chatbots mit Azure OpenAI in Typo3". Das Pflichtenheft ist rechtlich bindend und definiert die Rahmenbedingungen für die Entwicklung, die im Detail vom Auftragnehmer ausgestaltet werden.
+
+2. Allgemeines
+
+2.1 Ziel und Zweck des Dokuments
+
+Dieses Pflichtenheft beschreibt die Anforderungen an das Projekt "Integration eines mit JavaScript programmierten Chatbots mit Azure OpenAI in Typo3".
+
+2.2 Ausgangssituation
+
+Das Projekt wurde initiiert, um einen Chatbot zu entwickeln, der mittels JavaScript programmiert ist und Daten mittels Azure OpenAI verwaltet. Dieser Chatbot soll in eine Typo3-Website integriert werden.
+
+2.3 Projektbezug
+
+Das Projekt ist eigenständig und wird von der Musterfirma GmbH durchgeführt.
+
+2.4 Abkürzungen
+
+[Hier können alle verwendeten Abkürzungen aufgeführt werden.]
+2.5 Teams und Schnittstellen
+
+Projektteam: Max Mustermann (Projektleiter), [Weitere Teammitglieder]
+Schnittstellen: [Beschreibung der Schnittstellen und Kommunikationswege]
+3. Konzept
+
+3.1 Ziel(e) des Anbieters
+
+Das Ziel des Anbieters ist es, einen hochwertigen Chatbot zu entwickeln, der die Anforderungen des Auftraggebers erfüllt und einen Mehrwert für die Nutzer bietet.
+
+3.2 Ziel(e) und Nutzen des Anwenders
+
+Die Nutzer sollen von einem benutzerfreundlichen Chatbot profitieren, der ihnen bei der Beantwortung von Fragen und der Bereitstellung von Informationen unterstützt.
+
+3.3 Zielgruppe(n)
+
+Die Zielgruppe umfasst die Nutzer der Typo3-Website, die den Chatbot für verschiedene Zwecke nutzen möchten.
+
+4. Funktionale Anforderungen
+
+4.1 Anforderung 1
+
+Der Chatbot muss in der Lage sein, Benutzeranfragen zu verstehen und entsprechend zu reagieren.
+4.2 Anforderung 2
+
+Der Chatbot muss Daten aus Azure OpenAI abrufen und verwenden können.
+4.3 Anforderung 3
+
+Der Chatbot muss in Typo3 integriert werden und auf der Website angezeigt werden können.
+5. Nichtfunktionale Anforderungen
+
+5.1 Allgemeine Anforderungen
+
+Der Chatbot muss eine hohe Verfügbarkeit und Zuverlässigkeit aufweisen.
+5.2 Gesetzliche Anforderungen
+
+Der Chatbot muss geltende Datenschutzrichtlinien einhalten.
+5.3 Technische Anforderungen
+
+Der Chatbot muss auf verschiedenen Browsern und Geräten funktionieren.
+6. Rahmenbedingungen
+
+6.1 Zeitplan
+
+Das Projekt hat eine Laufzeit von 80 Stunden und beginnt am [Datum].
+6.2 Technische Anforderungen
+
+Die Entwicklung erfolgt mit JavaScript für den Chatbot und Azure OpenAI für die Datenverwaltung.
+6.3 Problemanalyse
+
+Es wird erwartet, dass mögliche Probleme bei der Integration des Chatbots in Typo3 auftreten könnten. Lösungsansätze für diese Probleme sollten frühzeitig identifiziert und dokumentiert werden.
+[...]
