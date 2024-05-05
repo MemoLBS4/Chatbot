@@ -1,0 +1,27 @@
+<div class="chat-window">
+  <div class="chat-history">
+    <!-- Hier werden die Chatnachrichten angezeigt -->
+  </div>
+  <div class="chat-choices">
+    <p>Bitte wählen Sie eine Option:</p>
+    <button (click)="selectOption('Option 1')">Allgemeine Informationen</button>
+    <button (click)="selectOption('Option 2')">Wie finde ich zur Eduvidual?</button>
+    <button (click)="selectOption('Option 3')">Wo ist der Stundenplan zu finden?</button>
+  </div>
+  <div class="chat-input">
+    <input type="text" [(ngModel)]="userInput" (keydown.enter)="sendMessage()" placeholder="Schreiben Sie eine Nachricht...">
+    <button (click)="sendMessage()">Senden</button>
+  </div>
+  <div class="chat-show">
+    <div *ngFor="let message of chatHistory" class="message-container">
+      <div *ngIf="message.sender === 'ME'" class="message me-message">
+        <p [innerHTML]="message.message"></p>
+        <div class="initials">ME</div>
+      </div>
+      <div *ngIf="message.sender === 'YOU'" class="message you-message">
+        <div class="initials">YOU</div>
+        <p [innerHTML]="message.message"></p>
+      </div>
+    </div>
+  </div>  
+</div>
